@@ -1,0 +1,219 @@
+/***************header***************/
+#header_box{
+    background-color: #ffffff;
+    width: 100%;
+    height: 77px;
+    border-bottom: 1px solid #9d9895; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+header{
+    background-color: red;
+    width: 1251px;
+    height: 77px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+header #logo{
+    float:left;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 217px;
+    height: 45px;
+}
+
+header .city{
+    float:left;
+    margin-top: 29px;
+    margin-left: 31px;
+}
+
+header .city >img{
+    width: 11px;
+    height: 17px;
+    margin-right:7px;
+}
+
+header .city >a{
+    background-color: #cccccc;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px;
+    margin-left:13px
+}
+
+header .city >a:hover{
+    color: #eeeeee;
+}
+
+header .city >a:active{
+    background-color: #aaaaaa;
+    color: #eeeeee;
+}
+
+header .nav{
+    float:left;
+    height: 77px;
+    line-height: 77px;
+    margin-left: 66px;
+}
+
+header .nav >a{
+    color: #000000;
+    margin-right: 29px;
+}
+
+header .nav >a:first-child{
+    margin-left: 36px;
+}
+
+/***************footer***************/
+#footer_box{
+    background-color: #3e2d23;
+    height: 125px;
+}
+
+footer{
+    width: 1251px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+footer .footer1{
+    overflow: hidden;
+}
+
+footer .footer1 .message{
+    float:left;
+    margin-top: 37px;
+    margin-left: 8px;
+}
+
+footer .footer1 .message >a{
+    color: #ffffff;
+    padding-left: 22px;
+    padding-right: 18px;
+    border-right: 1px solid #b3a59c;
+}
+
+footer .footer1 .message >a:last-child{
+    border: none;
+}
+
+footer .footer1 .tel{
+    margin-top: 37px;
+    margin-left: 75px;
+    float: left;
+}
+
+footer .footer1 .tel >span{
+    color: #ffffff;
+    float: left;
+}
+
+footer .footer1 .tel >span >img{
+    margin-right: 3px;
+}
+
+footer .footer1 .tel >a{
+    color: #ffffff;
+    margin-left: 45px;
+}
+
+footer .footer2{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 34px;
+}
+
+footer .footer2 >span{
+    margin-right: 40px;
+}{
+    margin-right: 0;
+}
+header .link{
+    float:right;
+    margin-top: 29px;
+}
+
+
+header .link >a >img{
+    float: left;
+    width: 23px;
+    height: 23px;
+    margin-right:23px;
+}
+
+header .link >a >span{
+    padding: 10px;
+    border: 1px solid #999999;
+    color: #030000;
+}
+
+/***************footer***************/
+#footer_box{
+    background-color: #3e2d23;
+    height: 125px;
+}
+
+footer{
+    width: 1251px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+footer .footer1{
+    overflow: hidden;
+}
+
+footer .footer1 .message{
+    float:left;
+    margin-top: 37px;
+    margin-left: 8px;
+}
+
+footer .footer1 .message >a{
+    color: #ffffff;
+    padding-left: 22px;
+    padding-right: 18px;
+    border-right: 1px solid #b3a59c;
+}
+
+footer .footer1 .message >a:last-child{
+    border: none;
+}
+
+footer .footer1 .tel{
+    margin-top: 37px;
+    margin-left: 75px;
+    float: left;
+}
+
+footer .footer1 .tel >span{
+    color: #ffffff;
+    float: left;
+}
+
+footer .footer1 .tel >span >img{
+    margin-right: 3px;
+}
+
+footer .footer1 .tel >a{
+    color: #ffffff;
+    margin-left: 45px;
+}
+
+footer .footer2{
+    color: #ffffff;
+    text-align: center;
+    margin-top: 34px;
+}
+
+footer .footer2 >span{
+    margin-right: 40px;
+}

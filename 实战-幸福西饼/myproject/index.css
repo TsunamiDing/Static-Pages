@@ -1,0 +1,63 @@
+/***************banner***************/
+#banner{
+    height: 750px;
+    margin-top: 78px;
+}
+
+#banner >a >img{
+    width: 100%;
+    height: 750px;
+}
+
+/***************cakes***************/
+#cakes{
+    overflow: hidden;
+    width: 100%;
+    height: 477px;
+}
+
+#cakes >div{
+    float:left;
+    width: 33.3333%;
+    height: 477px;
+    text-align: center;
+}
+
+#cakes >div:nth-child(1){
+    background-color: #eee2c8;
+}
+
+#cakes >div:nth-child(2){
+    background-color: #ddc69d;
+}
+
+#cakes >div:nth-child(3){
+    background-color: #eee2c8;
+}
+
+#cakes >div >a{
+    display: block;
+}
+
+#cakes >div >a >img{
+    width: 290px;
+    height: 191px;
+    margin-top: 77px;
+    margin-bottom: 60px;
+}
+
+#cakes >div >a:nth-child(2){
+    display: inline-block;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000000;
+}
+
+#cakes >div >a >span{
+    color: #000000;
+    font-size: 14px;
+}
+
+#cakes >div >a >span:nth-child(1){
+    font-weight: bolder;
+}
